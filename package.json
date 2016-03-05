@@ -1,0 +1,27 @@
+{
+  "name": "marugoto-pull",
+  "version": "1.0.0",
+  "description": "Pull word lists from marugotoweb.jp into colon separated text files.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tehwalris/marugoto-pull.git"
+  },
+  "keywords": [
+    "words",
+    "japanese",
+    "utility",
+    "download",
+    "pull"
+  ],
+  "author": "Philippe \"tehwalris\" Voinov",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request": "^2.69.0"
+  }
+}

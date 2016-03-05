@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '4.1'
+deploy:
+  provider: npm
+  email: philippevoinov@gmail.com
+  api_key:
+    secure: BlvdLsFw4ZmrBv0x4W5m6Hr7s1MS1C6q1FonV5hplHAOj3u3sHvKPz1mVWg0NFMZLUWg5k0LeLakcq4354kwZPqaZIcUVdF77yFeAeXvro1AVOZ5SxyuexKlC/uAK4l7e4jJG0+VW1OBFUwFEEDu5pUmFOs1je/zz1EChlRoO1G6r7W0Ft8ghsamENEtSGqbrRpoD9/Xa08dKhgphgarg49danrxS47txw1kAerlRWcGeGT3DTSSEeNEdPKKMdi+LPAzJzppcwqo+CO2iHq9gcSBFH7zB6Ykg7Z9WLyc5qAUUcInbF5gSxop0z1jJm55eNuX67p3lSmmhALOCvka/UWCPv6kJqudtd7nTvtJ1dQmqWM2cUWcz6NA45KNGTNgBmbD1q+ePB/+zqtIxhem0Xoslx1ytdTafAdPFc6IGKCbjSpT6/cSrij7RFokK/0AC6KyNC2CwnJoxBE7SyV5dQzDX8ulmK/9z6zXhyJZISq/r9CeA4TRuQcTM6ntwJy86MR3sg6Qr4/lN8BcC+OO78HwKSjksmeTCm4onbidWZcYeMg43Lx5XtDqSI41GmMP/ZWC8ZY4KAqPoc8EvvpKqZp6BkRW65IvyjnOiA+N2txDtHYaUKPCAnkNmH1SJo+STj/DBu2agWkx9VSFiFPWxwKwapViUMbSRdpv7UR7Irc=
+  on:
+    tags: true
+    repo: tehwalris/marugoto-pull

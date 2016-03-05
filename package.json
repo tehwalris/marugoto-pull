@@ -1,6 +1,6 @@
 {
   "name": "marugoto-pull",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pull word lists from marugotoweb.jp into colon separated text files.",
   "main": "index.js",
   "bin": "index.js",
